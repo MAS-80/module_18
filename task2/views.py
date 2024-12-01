@@ -6,4 +6,4 @@ def hallo(request):
     return render(request, 'class_template.html')
 
 class Hallo(TemplateView):
-    template_name =('func_template.html')
+    template_name =('second_task/func_template.html')
